@@ -1,6 +1,6 @@
 name: BlukAuth
 version: '${version}'
-main: org.bluk.AuthPlugin
+main: org.bluk.auth.AuthPlugin
 api-version: 1.18
 description: Authorization plugin for Bluk Launcher
 depend:

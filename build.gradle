@@ -2,7 +2,7 @@ plugins {
     id 'java'
 }
 
-group = 'org.bluk.Auth'
+group = 'org.bluk.auth.AuthPlugin'
 version = '1.0.0'
 
 repositories {
@@ -38,7 +38,7 @@ java {
 
 jar {
     manifest {
-        attributes "Main-Class": "org.bluk.Auth"
+        attributes "Main-Class": "org.bluk.auth.AuthPlugin"
     }
     from {
         configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
