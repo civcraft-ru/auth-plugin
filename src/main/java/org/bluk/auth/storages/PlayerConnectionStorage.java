@@ -1,14 +1,10 @@
-package org.bluk.storages;
+package org.bluk.auth.storages;
 
-import org.bluk.AuthPlugin;
-import org.bluk.entities.PlayerConnection;
+import org.bluk.auth.entities.PlayerConnection;
 
 import java.net.InetAddress;
-import java.net.InetSocketAddress;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.UUID;
-import java.util.logging.Level;
 
 public class PlayerConnectionStorage {
     private final Map<InetAddress, PlayerConnection> entities = new HashMap<>();

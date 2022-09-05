@@ -1,17 +1,15 @@
-package org.bluk;
+package org.bluk.auth;
 
 import com.comphenix.protocol.ProtocolLibrary;
 import com.comphenix.protocol.events.PacketAdapter;
 import com.comphenix.protocol.events.PacketListener;
-import org.bluk.entities.PlayerConnection;
-import org.bluk.storages.PlayerConnectionStorage;
+import org.bluk.auth.api.APIServer;
+import org.bluk.auth.storages.PlayerConnectionStorage;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.event.Listener;
 import org.bukkit.plugin.java.JavaPlugin;
-import org.bluk.api.APIServer;
 import org.reflections.Reflections;
 
-import java.lang.reflect.InvocationTargetException;
 import java.util.Set;
 import java.util.logging.Level;
 

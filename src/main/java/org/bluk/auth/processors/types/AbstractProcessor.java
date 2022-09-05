@@ -1,4 +1,4 @@
-package org.bluk.processors.types;
+package org.bluk.auth.processors.types;
 
 public interface AbstractProcessor {
     ProcessorState getState();

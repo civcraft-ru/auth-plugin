@@ -1,7 +1,7 @@
-package org.bluk.api;
+package org.bluk.auth.api;
 
-import org.bluk.AuthPlugin;
-import org.bluk.api.exceptions.ApiException;
+import org.bluk.auth.AuthPlugin;
+import org.bluk.auth.api.exceptions.ApiException;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

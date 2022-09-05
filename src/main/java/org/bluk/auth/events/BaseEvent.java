@@ -1,4 +1,4 @@
-package org.bluk.events;
+package org.bluk.auth.events;
 
 import org.bukkit.event.Event;
 import org.bukkit.event.HandlerList;

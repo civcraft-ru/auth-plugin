@@ -1,10 +1,10 @@
-package org.bluk.processors;
+package org.bluk.auth.processors;
 
-import org.bluk.AuthPlugin;
-import org.bluk.entities.PlayerConnection;
-import org.bluk.processors.types.AbstractProcessor;
-import org.bluk.processors.types.OnStateCallback;
-import org.bluk.processors.types.ProcessorState;
+import org.bluk.auth.AuthPlugin;
+import org.bluk.auth.processors.types.AbstractProcessor;
+import org.bluk.auth.processors.types.OnStateCallback;
+import org.bluk.auth.processors.types.ProcessorState;
+import org.bluk.auth.entities.PlayerConnection;
 
 import java.util.ArrayList;
 import java.util.HashMap;

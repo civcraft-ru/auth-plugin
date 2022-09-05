@@ -1,17 +1,16 @@
-package org.bluk.entities;
+package org.bluk.auth.entities;
 
-import org.bluk.AuthPlugin;
-import org.bluk.events.AuthorizedEvent;
-import org.bluk.processors.types.AbstractProcessor;
-import org.bluk.processors.AuthProcessor;
-import org.bluk.processors.types.OnStateCallback;
-import org.bluk.processors.types.ProcessorState;
-import org.bluk.storages.PlayerConnectionStorage;
+import org.bluk.auth.AuthPlugin;
+import org.bluk.auth.processors.AuthProcessor;
+import org.bluk.auth.processors.types.AbstractProcessor;
+import org.bluk.auth.processors.types.OnStateCallback;
+import org.bluk.auth.processors.types.ProcessorState;
+import org.bluk.auth.storages.PlayerConnectionStorage;
+import org.bluk.auth.events.AuthorizedEvent;
 import org.bukkit.entity.Player;
 import org.jetbrains.annotations.Nullable;
 
 import java.net.InetAddress;
-import java.net.InetSocketAddress;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;

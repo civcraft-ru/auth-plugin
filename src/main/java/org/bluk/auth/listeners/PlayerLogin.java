@@ -1,14 +1,12 @@
-package org.bluk.listeners;
+package org.bluk.auth.listeners;
 
-import org.bluk.AuthPlugin;
-import org.bluk.entities.PlayerConnection;
-import org.bluk.storages.PlayerConnectionStorage;
+import org.bluk.auth.AuthPlugin;
+import org.bluk.auth.entities.PlayerConnection;
+import org.bluk.auth.storages.PlayerConnectionStorage;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerLoginEvent;
-
-import java.util.logging.Level;
 
 public class PlayerLogin implements Listener {
     @EventHandler

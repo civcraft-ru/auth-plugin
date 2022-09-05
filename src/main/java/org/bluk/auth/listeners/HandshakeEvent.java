@@ -1,19 +1,11 @@
-package org.bluk.listeners;
+package org.bluk.auth.listeners;
 
 import com.comphenix.protocol.PacketType;
 import com.comphenix.protocol.events.*;
-import org.bluk.AuthPlugin;
-import org.bluk.entities.PlayerConnection;
-import org.bukkit.entity.Player;
-import org.bukkit.plugin.Plugin;
+import org.bluk.auth.AuthPlugin;
 
 import java.net.InetAddress;
-import java.net.InetSocketAddress;
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
-import java.util.List;
-import java.util.logging.Level;
 
 public class HandshakeEvent extends PacketAdapter {
     public HandshakeEvent() {

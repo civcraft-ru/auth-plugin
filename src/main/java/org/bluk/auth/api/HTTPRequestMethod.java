@@ -1,4 +1,4 @@
-package org.bluk.api;
+package org.bluk.auth.api;
 
 public enum HTTPRequestMethod {
     GET,
